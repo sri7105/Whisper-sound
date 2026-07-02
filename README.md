@@ -56,4 +56,5 @@ whisper-asr-pipeline/
     ├── predictions.csv
     ├── metrics.json
     └── report.md
+
 Initial attempts to load the dataset without streaming triggered a download of the full LibriSpeech archive (several GB), which is unnecessary when only a small sample subset is needed, switching to streaming mode fixed this.
