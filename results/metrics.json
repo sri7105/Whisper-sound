@@ -1,0 +1,6 @@
+{
+  "num_samples": 30,
+  "word_error_rate": 0.1639,
+  "character_error_rate": 0.0365,
+  "average_latency_sec": 4.5116
+}
